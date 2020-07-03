@@ -300,7 +300,6 @@ $(function () {
         buttonRestart.click(()=>{
             initComponetPlay();
             buttonRestart.hide();
-            socket.emit('restart data');
         })
 
         borrador.click(()=>{

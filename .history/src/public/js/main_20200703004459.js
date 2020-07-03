@@ -300,7 +300,6 @@ $(function () {
         buttonRestart.click(()=>{
             initComponetPlay();
             buttonRestart.hide();
-            socket.emit('restart data');
         })
 
         borrador.click(()=>{
@@ -338,7 +337,6 @@ $(function () {
 
         function initComponetPlay(){
          //   timerBox.show();
-            scoreBox.hide();
             loginBox.hide();
             guessBox.show();
             chatBox.show();
