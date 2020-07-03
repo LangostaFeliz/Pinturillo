@@ -1,0 +1,273 @@
+
+body{ background:#CCC;}
+#can{ background:white;margin-top:-50px;display:inline-block;}
+.button {
+background-color: #4CAF50; /* Green */
+border: none;
+color: white;
+padding: 5px 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 1px;
+margin: 1px 1px;
+cursor: pointer;
+}
+/*Declaracion de los buttones */
+.buttonGreen{
+    background-color: green;
+    
+}
+
+.buttonRed{
+    background-color:red;
+}
+
+.buttonYellow{
+    background-color:yellow;
+}
+
+.buttonWhite{
+    background-color:white;
+}
+
+.buttonGray{
+    background-color:gray;
+}
+
+.buttonOrange{
+    background-color:orange;
+}
+
+.buttonBrown{
+    background-color:brown;
+}
+
+.buttonViolet{
+    background-color:violet;
+}
+
+.buttonPurple{
+    background-color:purple;
+}
+
+.buttonBlack{
+    background-color:black;
+}
+
+.buttonCircle{
+    background-image: url(../source/circulo.png);
+
+    width: 23px;
+    height: 25px;
+}
+
+.buttonRectangle{
+    background-image: url(../source/rectangle.png);
+
+    width: 25px;
+    height: 27px;
+}
+
+.button1x{
+    background-image: url(../source/punto1x.png);
+
+    width: 25px;
+    height: 27px;
+}
+
+.button3x{
+    background-image: url(../source/punto3x.png);
+
+    width: 25px;
+    height: 25px;
+}
+/* FIN Declaracion de los buttones */
+
+
+/* Login */
+.loginBox{
+    width:400px;
+    height:300px;
+    border:1px solid #666;
+    margin:50px auto 0;
+    background:white;
+    position:fixed;
+    top:100px;
+    left:450px;
+
+}
+.loginInput{
+    width:200px;  
+}
+
+.iconInput{
+    background-image: url(../source/iconInput.png);
+
+    width: 61px;
+    height: 29px;
+}
+
+
+/* Declaracion de chatBOX*/
+.chatBox{
+    width:300px;
+    height:420px;
+    border:1px solid #666;
+    margin:50px auto 0;
+    background:white;
+    position:fixed;
+    top:100px;
+    left:15px;
+}
+.talk_box_show{
+    width:280px;
+    height:320px;
+    border:1px solid #666;
+    background:#fff;
+    margin:10px auto 0;
+    overflow:auto;
+}
+.talk_input{
+    width:200px;
+ 
+}
+.whotalk{
+    width:60px;
+    height:20px;
+    float:left;
+    outline:none;
+}
+.talk_word{
+    width:280px;
+    height:20px;
+    padding:0px;
+    float:left;
+    margin-left:10px;
+    outline:none;
+    text-indent:10px;
+}        
+.talk_sub{
+    width:56px;
+    height:25px;
+    float:left;
+    margin-left:230px;
+    margin-top: 10px;
+}
+.leftTalk{
+   margin:10px; 
+}
+.leftTalk span{
+    display:inline-block;
+    background:#0181cc;
+    border-radius:10px;
+    color:#fff;
+    padding:5px 10px;
+}
+.rightTalk{
+    margin:10px;
+    text-align:right;
+}
+.rightTalk span{
+    display:inline-block;
+    background:#ef8201;
+    border-radius:10px;
+    color:#fff;
+    padding:5px 10px;
+}
+
+.ubicacionCanva{
+
+    width:500px;
+    height:100px;
+    border:1px solid #666;
+    margin:10px auto 0;
+    background:gray;
+    position:fixed;
+    top: 100px;
+    left:500px;
+}
+.ubicaCanva{
+    width:500px;
+    height:100px;
+    margin-top: 50px;
+    position:fixed;
+    top :100px;
+    left :500;
+}
+.userBox{
+    width:200px;
+    height:300px;
+    background-color: white;
+    position:fixed;
+    top: 150px;
+    right:100px;
+}
+
+.timerBox{
+    width: 80px;
+    height: 80px;
+    background-color: whitesmoke;
+    position: fixed;
+    top : 150px;
+    left: 350px;
+}
+
+.buttonStart{
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    position: fixed;
+    top : 550px;
+    left: 450px;
+}
+
+.chooseBox{
+    width: 250px;
+    height: 100px;
+    background-color: gray;
+    position: fixed;
+    top : 200px;
+    left: 450px;
+}
+
+.chooseWord1{
+    width: 80px;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.chooseWord2{
+    width: 80px;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.chooseWord3{
+    width: 80px;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.lettersBox{
+    width: 40px;
+    height: 40px;
+
+}
+
+.guessBox{
+    width:1000px;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    top:20px;
+    left:200px;
+}
+.guessWord{
+    display: inline;
+    padding: 5px;
+    font-size: 200%;
+}
