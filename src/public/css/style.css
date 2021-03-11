@@ -117,8 +117,8 @@ cursor: pointer;
     margin:50px auto 0;
     background:white;
     position:fixed;
-    top:100px;
-    left:15px;
+    top:20%;
+    left:40%;
 }
 .talk_box_show{
     width:280px;
